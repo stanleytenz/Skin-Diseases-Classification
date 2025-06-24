@@ -149,6 +149,9 @@ export const ImageUpload = () => {
   const [isLoading, setIsloading] = useState(false);
   let confidence = 0;
 
+  return <div>Image Upload Component</div>;
+};
+
   const sendFile = async () => {
     if (image) {
       let formData = new FormData();
